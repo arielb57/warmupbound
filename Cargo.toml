@@ -1,0 +1,15 @@
+[package]
+name = "warmupbound"
+version = "0.1.0"
+edition = "2021"
+description = "Proven warm-up lengths for recursive technical indicators (EMA, RMA, ATR, MACD, KAMA, RSI)"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+
+[profile.test]
+opt-level = 2
